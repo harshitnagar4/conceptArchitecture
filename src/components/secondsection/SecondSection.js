@@ -7,9 +7,9 @@ const SecondSection = () => {
             <div className='container d-flex justify-content-center'>
                 <div className="card mb-3" style={{ width: "70%", marginTop: "-40px" }}>
                     <div className="row g-0">
-                        {/* <div className="col-md-4">
+                        <div className="col-md-4">
                             <img src={card} className="img-fluid rounded-start" alt="..." />
-                        </div> */}
+                        </div>
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title"><span>---</span> EXPLORE FEATURES</h5>
