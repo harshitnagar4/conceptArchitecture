@@ -2,3 +2,9 @@
 background-color: #86d1e5;
 /* #117b9b */
 }
+.card-body h2{
+    color:#02273c;
+}
+.card-body h5{
+    color:gray;
+}
