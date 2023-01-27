@@ -16,14 +16,14 @@ const Ourservices = () => {
             </div>
             <div className='container d-flex justify-content-center my-4'>
                 <div className='row d-flex justify-content-justify'  >
-                    <div className='col-md-3  col-sm-3  mx-4 border my-3'  style={{padding: "50px" , width:"370px"}}><h4>Planning</h4>
-                        <p>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p>
+                    <div className='col-md-3  col-sm-3  mx-4 border my-3'  style={{padding: "50px" , width:"370px"}}><h4 >Planning</h4>
+                        <p className='text-secondary fs-5'>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p>
                     </div>
-                    <div className='col-md-3 col-sm-3  mx-4  border my-3' style={{padding: "50px" , width:"370px"}}><h4>Valuation & Estimation</h4><p>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
-                    <div className='col-md-3  col-sm-3 mx-4 border my-3'style={{padding: "50px" , width:"370px"}} ><h4>Interior Designing</h4><p>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
-                    <div className='col-md-3 col-sm-3  mx-4 border my-3' style={{padding: "50px" , width:"370px"}}><h4>B.I.M Solution</h4><p>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
-                    <div className='col-md-3  col-sm-3 mx-4 border my-3' style={{padding: "50px" , width:"370px"}}><h4>Landscaping</h4><p>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
-                    <div className='col-md-3  col-sm-3  mx-4 border my-3' style={{padding: "50px" , width:"370px"}}><h4>Structural Designing</h4><p>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
+                    <div className='col-md-3 col-sm-3  mx-4  border my-3' style={{padding: "50px" , width:"370px"}}><h4>Valuation & Estimation</h4><p className='text-secondary fs-5'>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
+                    <div className='col-md-3  col-sm-3 mx-4 border my-3'style={{padding: "50px" , width:"370px"}} ><h4>Interior Designing</h4><p className='text-secondary fs-5'>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
+                    <div className='col-md-3 col-sm-3  mx-4 border my-3' style={{padding: "50px" , width:"370px"}}><h4>B.I.M Solution</h4><p className='text-secondary fs-5'>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
+                    <div className='col-md-3  col-sm-3 mx-4 border my-3' style={{padding: "50px" , width:"370px"}}><h4>Landscaping</h4><p className='text-secondary fs-5'>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
+                    <div className='col-md-3  col-sm-3  mx-4 border my-3' style={{padding: "50px" , width:"370px"}}><h4>Structural Designing</h4><p className='text-secondary fs-5'>We provide a range of architectural BIM modeling services & one-stop solution for all your architectural BIM modeling requirements</p></div>
                 </div>
             </div>
         </>
