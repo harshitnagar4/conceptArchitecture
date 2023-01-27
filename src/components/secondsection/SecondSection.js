@@ -14,7 +14,7 @@ const SecondSection = () => {
                 <div className="card mb-3" style={{ marginTop: "-99px" }}>
                     <div className="row g-0">
                         <div className="col-sm-4 col-lg-4">
-                            <img src={card} className="img-fluid rounded-start" alt="..." />
+                            <img src={card} className="img-fluid rounded-start"  alt="..."  style={{height:'450px', width:"429px"}}/>
                         </div>
                         <div className="col-sm-8 col-lg-8">
                             <div className="card-body mb-4">
