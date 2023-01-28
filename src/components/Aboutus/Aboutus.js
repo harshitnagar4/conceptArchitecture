@@ -2,11 +2,15 @@ import React from 'react'
 import about from '../../assets/images/about.PNG'
 import { BsGlobe } from 'react-icons/bs';
 import { SiReactos } from 'react-icons/si';
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
+import { SlCalender } from 'react-icons/sl';
+import { FaPeopleArrows } from 'react-icons/fa';
 import './about.css'
 const Aboutus = () => {
     return (
         <>
-            <div className='container'>
+           <div className='bg-secondary-subtle my-4'>
+           <div className='container'>
                 <div className='row position-relative' >
                     <div className='col-md-6'>
                         <div className='border-bottom'>
@@ -32,16 +36,43 @@ const Aboutus = () => {
                     <div className='col-md-6 overlay-about d-block m-auto '>
                         <div className='about-img-two'>
                             <img src={about} height="400px" className='d-block m-auto' />
-                            <div class="text-overlay">
-                                <div class="pos-text">
-                                    <div class="number-years">17</div>
+                            <div className="text-overlay">
+                                <div className="pos-text">
+                                    <div className="number-years">17</div>
                                     <span>Years Of Trust <br /> And Experience</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                 
+                 {/* start statistics */}
+                 <div className='row' style={{marginTop:"6rem" , marginBottom:"6rem"}}>
+                    <div className='col-md-4 d-flex' style={{justifyContent:'space-between'}}>
+                    <span className="flaticon-computer" style={{fontSize:'90px' , marginTop:'-20px' , color:'#0b5394'}}><AiOutlineFundProjectionScreen/></span>
+                        <div className='state-Item d-flex flex-column'>
+                        <div className="count" data-from="1" data-to="1800" data-speed="3000" style={{fontSize:"4rem"}}>1800</div>
+                        <p className="fs-4 text-secondary">Projects Completed</p>
+                        </div>
+                    </div>
+                    <div className='col-md-4 d-flex' style={{justifyContent:'space-between'}}>
+                    <span className="flaticon-computer" style={{fontSize:'90px' , marginTop:'-20px' , color:'#0b5394'}}><FaPeopleArrows/></span>
+                        <div className='state-Item d-flex flex-column'>
+                        <div className="count" data-from="1" data-to="1800" data-speed="3000" style={{fontSize:"4rem"}}>500+</div>
+                        <p className="fs-4 text-secondary">Clients In Rajasthan</p>
+                        </div>
+                    </div>
+                    <div className='col-md-4 d-flex' style={{justifyContent:'space-between'}}>
+                    <span className="flaticon-computer" style={{fontSize:'90px' , marginTop:'-20px' , color:'#0b5394'}}><SlCalender/></span>
+                        <div className='state-Item d-flex flex-column'>
+                        <div className="count" data-from="1" data-to="1800" data-speed="3000" style={{fontSize:"4rem"}}>15</div>
+                        <p className="fs-4 text-secondary">Years Of Experiences</p>
+                        </div>
+                    </div>
+                 </div>
             </div>
+           </div>
+            
         </>
     )
 }

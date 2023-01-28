@@ -11,9 +11,9 @@ const SecondSection = () => {
     return (
         <>
             <div className=' d-flex justify-content-center'>
-              <div className='row'>
+              <div className='row' style={{marginRight:'6rem' , marginLeft:'6rem'}}>
               <div className="card mb-3" style={{ marginTop: "-99px" }}>
-                    <div className="row g-0">
+                    <div className="row g-0 "  >
                         <div className="col-sm-4 col-lg-4">
                             <img src={card} className="img-fluid rounded-start"  alt="..."  style={{height:'450px', width:"429px"}}/>
                         </div>
